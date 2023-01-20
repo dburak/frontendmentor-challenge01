@@ -94,8 +94,16 @@ body {
 }
 
 .product {
+  display: grid;
   background-color: var(--clr-neutral-100);
   border-radius: 0.5rem;
+  max-width: 600px;
+}
+
+@media(min-width: 600px) {
+  .product {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .product__content {
@@ -145,4 +153,8 @@ body {
   background-image: url("images/icon-cart.svg");
   width: 15px;
   height: 16px;
+}
+
+footer {
+  margin-top: 30vh;
 }
