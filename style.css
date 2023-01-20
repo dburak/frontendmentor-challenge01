@@ -81,10 +81,10 @@ body {
   font-size: 0.875rem; /* 14 px */
   color: var(--clr-neutral-400);
   background-color: var(--clr-secondary-200);
+  min-height: 100vh;
 
   display: grid;
   place-content: center;
-  margin: 1rem;
 }
 
 .flex-group {
@@ -156,5 +156,5 @@ body {
 }
 
 footer {
-  margin-top: 30vh;
+  margin-top: 10vh;
 }
